@@ -9,5 +9,10 @@ int main(int argc, char *argv[])
   puts("Hello world.");
   puts("Hi");
   puts("here");
-  return 0;
+
+  //main is a function that always returns an integer
+  //strongly typed; declared to return integer, so must return integer
+  //return code of 0 means success
+  //can use different return codes for different failures
+  return 0; 
 }
